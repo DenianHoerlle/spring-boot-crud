@@ -4,8 +4,8 @@ services:
     image: 'mysql:latest'
     environment:
       - 'MYSQL_DATABASE=mydatabase'
-      - 'MYSQL_PASSWORD=Blaziken321'
-      - 'MYSQL_ROOT_PASSWORD=Blaziken321'
+      - 'MYSQL_PASSWORD=password'
+      - 'MYSQL_ROOT_PASSWORD=password'
       - 'MYSQL_USER=root'
     ports:
       - '3306:3306'
